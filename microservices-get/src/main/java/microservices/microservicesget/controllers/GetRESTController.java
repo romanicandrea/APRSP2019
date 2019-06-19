@@ -56,6 +56,7 @@ public class GetRESTController {
         return studentRepository.findByStudyGroup(studyGroup);
     }
 
+
     @GetMapping("studyProjects")
     public Collection<StudyProject> getStudyProject(){
         return studyProjectRepository.findAll();
